@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Username -->
+    <EditText
+        android:id="@+id/txtUsername"
+        android:inputType="textPersonName"
+        android:imeOptions="actionNext"
+        android:hint="@string/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+    <!-- Password -->
+    <EditText
+        android:id="@+id/txtPassword"
+        android:inputType="textPassword"
+        android:imeOptions="actionNext"
+        android:hint="@string/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Btn Submit Credentials-->
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/submit"
+    android:id="@+id/btnSubmitCredentials"/>
+
+</LinearLayout>
